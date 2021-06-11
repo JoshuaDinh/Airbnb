@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./banner.css";
 import { Button } from "@material-ui/core";
+import SearchDates from "../SearchDates/SearchDates";
 
 const Banner = () => {
   const [showSearch, setShowSearch] = useState(true);
@@ -15,6 +16,8 @@ const Banner = () => {
         >
           {showSearch ? "Search Dates" : "hide"}
         </Button>
+        {/* Date Picker Toggle */}
+        {!showSearch && <SearchDates />}
       </div>
       <div className="banner-info">
         <h1>Get out and stretch your imagination</h1>
