@@ -1,5 +1,8 @@
 import React from "react";
 import "./header.css";
+import SearchIcon from "@material-ui/icons/Search";
+import LanguageIcon from "@material-ui/icons/Language";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const Header = () => {
   return (
@@ -11,8 +14,13 @@ const Header = () => {
       />
       <form className="header-center">
         <input type="text" className="header-input" />
+        <SearchIcon />
       </form>
-      <div className="header-right">Become a host</div>
+      <div className="header-right">
+        Become a host
+        <LanguageIcon />
+        <ExpandMoreIcon />
+      </div>
     </div>
   );
 };
