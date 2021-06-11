@@ -4,3 +4,46 @@
   left: 30%;
   width: 100vw;
 }
+
+.searchDates > input {
+  position: absolute;
+  top: 390px;
+  left: 0;
+  height: 20px;
+  width: 558px;
+  padding: 20px;
+  border: none;
+}
+
+.searchDates > input:focus {
+  outline-width: 0;
+}
+
+.searchDates > h2 {
+  position: absolute;
+  top: 342px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 558px;
+  padding: 10px;
+  background: white;
+}
+
+.searchDates > button {
+  position: absolute;
+  top: 430px;
+  left: 0;
+  width: 558px;
+  border-radius: 0;
+  background: #ff7779;
+  color: #fff;
+  text-transform: inherit !important;
+}
+.searchDates > button:hover {
+  background: #fff;
+  border: 1px solid #ff7779;
+  color: #ff7779;
+  transition: 0.5s ease-out;
+}
