@@ -14,6 +14,24 @@
   box-sizing: border-box;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.link > button {
+  margin-top: 20px;
+  background: #ff7779;
+  color: #fff;
+  font-weight: 600;
+  text-transform: inherit;
+}
+
+.link > button:hover {
+  background: #fff;
+  color: #ff7779;
+  transition: 0.5s ease-out;
+}
+
 .App {
   text-align: center;
 }

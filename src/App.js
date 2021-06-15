@@ -11,14 +11,14 @@ const App = () => {
     <Router>
       <Header />
       <Switch>
-        <Route path="/">
+        <Route path="/search">
           <div className="app">
-            <Home />
+            <Search />
           </div>
         </Route>
         <Route path="/">
           <div className="app">
-            <Search path="/search" />
+            <Home />
           </div>
         </Route>
       </Switch>
