@@ -1,14 +1,13 @@
 import React from "react";
-import Header from "../Components/Header/Header";
-import Banner from "../Components/Banner/Banner";
-import Card from "../Components/Card/Card";
+import Banner from "../../Components/Banner/Banner";
+import Card from "../../Components/Card/Card";
 import "./home.css";
-import roomOne from "../images/room-1.jpg";
-import roomTwo from "../images/room-2.jpg";
-import roomThree from "../images/room-3.jpg";
-import houseOne from "../images/house-1.jpg";
-import houseTwo from "../images/house-2.jpg";
-import houseThree from "../images/house-3.jpg";
+import roomOne from "../../images/room-1.jpg";
+import roomTwo from "../../images/room-2.jpg";
+import roomThree from "../../images/room-3.jpg";
+import houseOne from "../../images/house-1.jpg";
+import houseTwo from "../../images/house-2.jpg";
+import houseThree from "../../images/house-3.jpg";
 
 const Home = () => {
   return (

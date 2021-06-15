@@ -1,14 +1,29 @@
 import React from "react";
 import "./App.css";
-import Home from "./Home/Home";
+import Home from "./Pages/Home/Home";
 import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Search } from "./Pages/Search/Search";
 
 const App = () => {
   return (
-    <div className="app">
+    <Router>
       <Header />
-      <Home />
-    </div>
+      <Switch>
+        <Route path="/">
+          <div className="app">
+            <Home />
+          </div>
+        </Route>
+        <Route path="/">
+          <div className="app">
+            <Search path="/search" />
+          </div>
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
   );
 };
 
