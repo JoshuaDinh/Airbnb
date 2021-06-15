@@ -12,20 +12,6 @@
   color: white;
 }
 
-.banner-info > button {
-  margin-top: 20px;
-  background: #ff7779;
-  color: #fff;
-  font-weight: 600;
-  text-transform: inherit;
-}
-
-.banner-info > button:hover {
-  background: #fff;
-  color: #ff7779;
-  transition: 0.5s ease-out;
-}
-
 .banner-search {
   display: flex;
   flex-direction: column;
