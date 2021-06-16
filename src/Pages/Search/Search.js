@@ -2,6 +2,8 @@ import React from "react";
 import "./search.css";
 import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import SearchResult from "../../Components/SearchResult/SearchResult";
+import searchResultOne from "../../images/searchResult-1.jpg";
 
 export const Search = () => {
   return (
@@ -30,6 +32,38 @@ export const Search = () => {
           </Button>
         </Link>
       </div>
+      <SearchResult
+        src={searchResultOne}
+        location="Private room center of San Diego"
+        title="Stay At This Spacious Urban Condo"
+        description="1 Guest - 1 Bedroom - 1 Bathroom - Wifi - Kitchen - Washer & Dryer in unit - Free Parking"
+        star="4.75"
+        price="$45 / night"
+      />
+      <SearchResult
+        src={searchResultOne}
+        location="Private room center of San Diego"
+        title="Stay At This Spacious Urban Condo"
+        description="1 Guest - 1 Bedroom - 1 Bathroom - Wifi - Kitchen - Washer & Dryer in unit - Free Parking"
+        star="4.75"
+        price="$45 / night"
+      />
+      <SearchResult
+        src={searchResultOne}
+        location="Private room center of San Diego"
+        title="Stay At This Spacious Urban Condo"
+        description="1 Guest - 1 Bedroom - 1 Bathroom - Wifi - Kitchen - Washer & Dryer in unit - Free Parking"
+        star="4.75"
+        price="$45 / night"
+      />
+      <SearchResult
+        src={searchResultOne}
+        location="Private room center of San Diego"
+        title="Stay At This Spacious Urban Condo"
+        description="1 Guest - 1 Bedroom - 1 Bathroom - Wifi - Kitchen - Washer & Dryer in unit - Free Parking"
+        star="4.75"
+        price="$45 / night"
+      />
     </div>
   );
 };
