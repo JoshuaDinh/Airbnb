@@ -18,7 +18,7 @@ const Header = () => {
       <form className="header-center">
         <input type="text" className="header-input" />
         <Link to="/search" className="link">
-          <SearchIcon />
+          <SearchIcon className="header-search-icon" />
         </Link>
       </form>
       <div className="header-right">
