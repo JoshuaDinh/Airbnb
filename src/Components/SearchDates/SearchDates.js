@@ -5,6 +5,7 @@ import PeopleIcon from "@material-ui/icons/People";
 import { DateRangePicker } from "react-date-range";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
+import { Link } from "react-router-dom";
 
 const SearchDates = () => {
   const [startDate, setStartDate] = useState(new Date());
@@ -29,7 +30,9 @@ const SearchDates = () => {
         <PeopleIcon />
       </h2>
       <input type="number" min={0} defaultValue={2} />
-      <Button variant="outlined">Search airbnb</Button>
+      <Link to="/search" className="link">
+        <Button variant="outlined">Search airbnb</Button>
+      </Link>
     </div>
   );
 };

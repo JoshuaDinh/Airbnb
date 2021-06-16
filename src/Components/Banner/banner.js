@@ -25,7 +25,7 @@ const Banner = () => {
         <h5>
           Plan a different kind of getaway to uncover the hidden gems near you.
         </h5>
-        <Link to="/search" className="link">
+        <Link to="/search">
           <Button variant="outlined">Explore Nearby</Button>
         </Link>
       </div>

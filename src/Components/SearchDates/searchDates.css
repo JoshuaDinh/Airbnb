@@ -31,9 +31,9 @@
   background: white;
 }
 
-.searchDates > button {
+.searchDates > .link > button {
   position: absolute;
-  top: 430px;
+  top: 400px;
   left: 0;
   width: 558px;
   border-radius: 0;
@@ -41,7 +41,7 @@
   color: #fff;
   text-transform: inherit !important;
 }
-.searchDates > button:hover {
+.searchDates > .link > button:hover {
   background: #fff;
   border: 1px solid #ff7779;
   color: #ff7779;
